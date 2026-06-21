@@ -32,19 +32,41 @@ Upload a question paper, an answer key, and a batch of student answer sheets. Ev
 - **Export Results** — Download class results as Excel or individual reports as PDF
 - **Delete Exams** — Select and permanently remove one or more exams from history
 
----
-
 ## How It Works
 
-```
-Teacher uploads:          EvalAI processes:         Teacher receives:
-┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
-│ Question Paper  │ ───▶ │ Parse questions  │      │ Class Dashboard │
-│ Answer Key      │      │ Extract marks    │ ───▶ │ Student Reports │
-│ Student Sheets  │      │ Map answers      │      │ Excel Export    │
-│ (PDF per student│      │ AI evaluation    │      │ PDF Reports     │
-└─────────────────┘      └──────────────────┘      └─────────────────┘
-```
+<table>
+<tr>
+
+<td align="center">
+<b>Teacher Uploads</b><br><br>
+<code>Question Paper  </code><br>
+<code>Answer Key      </code><br>
+<code>Student Sheets  </code><br>
+<code>PDF per student </code>
+</td>
+
+<td align="center"><b>&nbsp;&nbsp;──▶&nbsp;&nbsp;</b></td>
+
+<td align="center">
+<b>EvalAI Processes</b><br><br>
+<code>Parse questions </code><br>
+<code>Extract marks   </code><br>
+<code>Map answers     </code><br>
+<code>AI evaluation   </code>
+</td>
+
+<td align="center"><b>&nbsp;&nbsp;──▶&nbsp;&nbsp;</b></td>
+
+<td align="center">
+<b>Teacher Receives</b><br><br>
+<code>Class Dashboard </code><br>
+<code>Student Reports </code><br>
+<code>Excel Export    </code><br>
+<code>PDF Reports     </code>
+</td>
+
+</tr>
+</table>
 
 **Phase 1 — Understanding the Exam**
 The system parses the question paper to extract every question, its marks, and its type. The answer key is mapped question by question. The AI now understands the full exam structure before touching a single student sheet.
