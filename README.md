@@ -32,6 +32,41 @@ Upload a question paper, an answer key, and a batch of student answer sheets. Ev
 - **Export Results** — Download class results as Excel or individual reports as PDF
 - **Delete Exams** — Select and permanently remove one or more exams from history
 
+## Screenshots
+
+### Exam History
+<img src="screenshots/01_exam_history.png" width="900" alt="Exam History Page"/>
+
+---
+
+### New Exam Setup
+<img src="screenshots/02_exam_setup.png" width="900" alt="Exam Setup Page"/>
+
+---
+
+### Student Upload
+<img src="screenshots/03_student_upload.png" width="900" alt="Student Upload Page"/>
+
+---
+
+### Class Dashboard
+<img src="screenshots/04_class_dashboard.png" width="900" alt="Class Dashboard"/>
+
+---
+
+### Student Report
+<img src="screenshots/05_student_report.png" width="900" alt="Student Report Page"/>
+
+---
+
+### Manual Mark Override
+<img src="screenshots/06_mark_override.png" width="900" alt="Manual Mark Override"/>
+
+---
+
+### Delete Exam Feature
+<img src="screenshots/07_delete_exam.png" width="900" alt="Delete Exam Feature"/>
+
 ## How It Works
 
 <table>
